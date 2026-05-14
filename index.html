@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escolha seu Carro</title>
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"defer></script>
+    <script src="./js/index.js" defer></script>
 </head>
 <body>
-    
+    <h1>Qual jogador é o melhor?</h1>
+    <p class="subtitulo"> Clique na sua preferida!</p>
+
+    <div class="opcoes">
+
+        <div class="cartao" id="cartao1">
+            <img src="./img/messi.jpg" alt="">
+            <p>Messi</p>
+        </div>
+
+        <div class="vs">VS</div>
+
+        <div class="cartao" id="cartao2"></div>
+        <img src="./img/Cristiano.jpg" alt="">
+        <p>Cristiano</p>
+    </div>
+
+    <!--Resultados aparecem aqui depois do voto-->
+    <div id="resultado">
+        <h2>Placar Atual</h2>
+        <div id="barras"></div>
+        <div id="proximo-aviso"></div>
+
+    </div>
+
 </body>
 </html>
