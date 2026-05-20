@@ -1,11 +1,11 @@
 // Lista de redes sociais com nome e imagem local
 const redesSociais = [
-  { nome: "Cristiano", imagem: "img/Cristiano.jpg" },
-  { nome: "Messi",   imagem: "img/messi.jpg"   },
-  { nome: "Ronaldo",    imagem: "img/ronaldo.jpg"    },
-  { nome: "Neymar",         imagem: "img/neymar.jpg"         },
-  { nome: "Yuri Alberto",   imagem: "img/yuri.jpg"   },
-  { nome: "Depay",    imagem: "img/depay.jpg"    },
+  { nome: "Cristiano",   imagem: "img/Cristiano.jpg"},
+  { nome: "Messi",       imagem: "img/messi.jpg"},
+  { nome: "Ronaldo",     imagem: "img/ronaldo.jpg"},
+  { nome: "Neymar",      imagem: "img/neymar.jpg"},
+  { nome: "Yuri Alberto",imagem: "img/yuri.jpg"},
+  { nome: "Depay",       imagem: "img/depay.jpg"},
 ];
 
 // Começa todos os votos zerados
